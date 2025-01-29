@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 0 15px;
+    font-weight: 700;
+}
+a:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*  */
+.section-padding{
+    /* position: relative; */
+
+}
+.section-bg{
+    background-image: url(../img/appoinment-bg.jpg);
+    
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 59%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-bg::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #ffb1b1;
+    content: "";
+    opacity: .9;
+}
+
+.contact-from{
+    padding: 100px 0px 100px 0px ;
+}
+
+.contact-from input .contact-from textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom:17px;
+    color: #333;
+}
+
+.contact-from h2{
+    color: #ffffff;
+}
+
+input:focus , textarea:focus , button:focus {
+    outline: none;
+}
+
+.contact-from input[type=submit]{
+    width: auto;
+    padding: 15px 30px;
+    color: #ffb1b1;
+    font-weight: 700;
+}

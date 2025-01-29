@@ -5,7 +5,7 @@
 }
 
 h1,h2,h3,h4,h5,h6{
-    margin: 0 0 0 15px;
+    margin: 0 0 0 0px;
     font-weight: 700;
 }
 a:focus{
@@ -21,26 +21,18 @@ img{
 
 /*  */
 .section-padding{
-    /* position: relative; */
-
-}
-.section-bg{
-    background-image: url(../img/appoinment-bg.jpg);
-    
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 59%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
 }
 .section-bg::after{
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
-    width: 100%;
-    background: #ffb1b1;
+    width: 60%;
+    background-image: url(../img/appoinment-bg.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     content: "";
     opacity: .9;
 }
@@ -48,13 +40,24 @@ img{
 .contact-from{
     padding: 100px 0px 100px 0px ;
 }
-
-.contact-from input .contact-from textarea {
+input , textarea{
     width: 100%;
     padding: 10px;
     border: none;
     margin-bottom:17px;
     color: #333;
+    border-radius: 4px;
+}
+.button{
+   padding: 15px 30px;
+   background-color: #ffffff;
+   border-radius: 4px;
+   color: #ffb1b1;
+   font-weight: 700;
+   border: none;
+}
+.absolute-text{
+    padding-bottom: 20px;
 }
 
 .contact-from h2{
@@ -70,4 +73,105 @@ input:focus , textarea:focus , button:focus {
     padding: 15px 30px;
     color: #ffb1b1;
     font-weight: 700;
+}
+
+
+.appointment-text{
+    padding: 100px 0px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+ul li {
+    list-style: none;
+    display: flex;   
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.box-button{
+    padding: 15px 30px;
+    background-color: #E593AE;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.fa-shield{
+    color: #E593AE;
+}
+
+button:hover{
+    color: #000000;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .appointment-text{
+        padding: 50px 0px 50px 0px;
+    }
+    .section-bg::after{
+        height: 60%;
+        width: 100%;   
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contact-from{
+        padding: 100px 0px 100px 0px ;
+    }
+    .appointment-text{
+        padding: 0px 0px 0px 0px;
+    }
+    .section-bg::after{
+        height: 60%;
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contact-from{
+        padding: 100px 0px 100px 0px ;
+    }
+    .appointment-text{
+        padding: 0px 0px 0px 0px;
+    }
+    .section-bg::after{
+        height: 60%;
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contact-from{
+        padding: 100px 0px 100px 0px ;
+    }
+    .appointment-text{
+        padding: 100px 0px 100px 100px;
+    }
+    .section-bg::after{
+        height: 100%;
+        width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .contact-from{
+        padding: 100px 0px 100px 0px ;
+    }
+    .appointment-text{
+        padding: 100px 0px 100px 100px;
+    }
+    .section-bg::after{
+        height: 100%;
+        width: 60%;
+    }
 }
