@@ -72,3 +72,18 @@ img{
     padding-left: 50px;
     padding-right: 0px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .zigzag-text::after{
+        transform: skew(0deg);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .zigzag-text::after{
+        transform: skew(10deg);
+    }
+}
