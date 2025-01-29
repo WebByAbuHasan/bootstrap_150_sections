@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 0 0px;
+    font-weight: 700;
+}
+a:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*  */
+.zigzag-text-bg-1{
+    background-image: url(../img/building.jpg);
+}
+.zigzag-text-bg-2{
+    background-image: url(../img/girl.jpg);
+    overflow: hidden;
+}
+.section-padding{
+    background-size: cover;
+    background-position: center;
+}
+.zigzag-text{
+    position: relative;
+    z-index: 2;
+    padding-right: 50px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.boxed-btn{
+    padding: 10px 30px;
+    background-color: black;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.zigzag-text::after{
+    position: absolute;
+    top: 0px;
+    left: -4900%;
+    height: 100%;
+    width: 5000%;
+    background-color: rgb(38, 45, 249);
+    content: "";
+    z-index: -1;
+    transform: skew(10deg);
+    opacity: .8;
+}
+
+.zigzag-text-bg-2 .zigzag-text::after{
+    left: auto;
+    right: -4900%;
+    width: 5000%;
+      
+}
+
+.zigzag-text-bg-2 .zigzag-text{
+    padding-left: 50px;
+    padding-right: 0px;
+}
