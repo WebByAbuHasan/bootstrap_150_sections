@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 0 0px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*  */
+
+.head-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px; 
+}
+
+.head_line{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.head_line h2::before{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    height: 5px;
+    background-color: brown;
+    content: "";
+    margin-top: -30px;
+}
+
+.head_line h2::after{
+    position: absolute;
+    bottom: 0;
+    left: 53.3%;
+    width: 20px;
+    height: 5px;
+    background-color: rgb(49, 228, 49);
+    content: "";
+    margin-top: -30px;
+}
+
+.card_design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 10px 0px;
+}
+.link_add{
+    padding: 20px;
+    background-color: azure;
+}
+i{
+    font-size: 40px;
+    color: brown;
+}
