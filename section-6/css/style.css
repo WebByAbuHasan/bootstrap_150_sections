@@ -1,0 +1,66 @@
+
+
+h1 , h2 , h3 , h4, h5 , h6{
+    font-weight: 700;
+}
+/*  */
+
+.pricing_box:hover{
+    border: 1px solid blue;
+    transition: .3s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.text-align{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+h3 span{
+    color: blue;
+}
+
+.pricing_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    gap: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+ul li{
+    list-style: none;
+}
+
+.button{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid blue;
+}
+
+.button:hover{
+    color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: blue;
+    transition: .3s;
+}
+
+.bi-check2{
+    color: blue;
+    padding: 0px 5px 0px 0px;
+    font-size: 20px;
+}
+
+.bi-x{
+    color: rgb(255, 0, 0);
+    padding: 0px 5px 0px 0px;
+    font-size: 20px;
+}
