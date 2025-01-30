@@ -1,0 +1,27 @@
+
+/*  */
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.collapsed-hader-design{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.card-header:first-child {
+    border-radius:0 !important;
+}
+.card-header {
+    padding:  0px !important;
+    margin-bottom:  0px !important;
+    color:  #000000 !important;
+    background-color:  #ffffff !important;
+    border-bottom: none !important;
+}
