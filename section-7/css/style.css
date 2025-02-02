@@ -1,0 +1,29 @@
+.owl-nav {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 10px 10px !important;
+    font: inherit;
+    font-size: 50px;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #2900b0;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #0a58ca;
+    color: #FFF;
+    text-decoration: none;
+}

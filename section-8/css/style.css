@@ -1,0 +1,49 @@
+body{
+    color: #5e5b5b;
+}
+
+.service-header{
+    padding: 40px 0px;
+    text-align: center;
+}
+.service-bg{
+    height: 150px;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.service-bg-1{
+    background-image: url(../img/11.jpg);
+}
+.service-bg-2{
+    background-image: url(../img/22.jpg);
+}
+.service-bg-3{
+    background-image: url(../img/33.jpg);
+}
+.service-bg-4{
+    background-image: url(../img/11.jpg);
+}
+.service-content{
+    padding: 15px ;
+    background-color: rgb(249, 248, 246);
+}
+.service-btn{
+    text-decoration: none;
+    color: rgb(86, 86, 238);
+    padding: 10px 0px;
+}
+
+.service-btn:hover{
+    transition: .3s;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:rgb(86, 86, 238);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.bi-arrow-right{
+    padding-left:7px;
+}
