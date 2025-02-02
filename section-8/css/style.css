@@ -33,6 +33,8 @@ body{
     text-decoration: none;
     color: rgb(86, 86, 238);
     padding: 10px 0px;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .service-btn:hover{
