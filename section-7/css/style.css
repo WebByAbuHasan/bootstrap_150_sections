@@ -1,7 +1,31 @@
+h1,h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.section-titel{
+    text-align: center;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+.item img{
+    width:180px;
+    height: 220px;
+    border-radius: 50%;
+}
+.card{
+    --bs-card-border-width: none;
+}
 .owl-nav {
     position: absolute;
-    left: 50%;
     bottom: 100%;
+    right: 0;
+    margin: 0;
 }
 
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
@@ -26,4 +50,19 @@
     background: #0a58ca;
     color: #FFF;
     text-decoration: none;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    font-size: 16px;
+    padding: 0 !important;
+    margin: 0;
+    width: 30px;
+    background: #ddd;
+    height: 30px;
+    line-height: 23px;
+    border-radius: 0;
+}
+.owl-carousel .owl-nav button.owl-next {
+    background: #3aacf9;
+    color: #fff;
 }

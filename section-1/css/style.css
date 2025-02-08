@@ -18,6 +18,9 @@ img{
     max-width: 100%;
     height: auto;
 }
+p {
+    margin: 0 0 0px;
+}
 
 /*  */
 .section-padding{

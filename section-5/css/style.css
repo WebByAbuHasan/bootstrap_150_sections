@@ -15,8 +15,11 @@ img{
     justify-content: space-between;
     border: none;
 }
+.card{
+overflow: hidden;
+}
 .card-header:first-child {
-    border-radius:0 !important;
+    border-radius:3 !important;
 }
 .card-header {
     padding:  0px !important;

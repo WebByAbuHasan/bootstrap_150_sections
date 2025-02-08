@@ -44,16 +44,18 @@ img{
     background: #1fa463 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
+    
     display: inline-block;
     font-size: 40px;
     height: 100px;
     line-height: 95px;
-    margin-top: -50px;
     padding-left: 7px;
     position: absolute;
     right: -50px;
     text-align: center;
-    top: 56%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
     width: 100px;
 }
 
@@ -78,7 +80,21 @@ ul li{
     padding-right: 10px;
 }
 
+ul.check-icon li {
+    position: relative;
+    padding-left: 25px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
 
+ul.check-icon li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    color: #31a463;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -90,19 +106,23 @@ ul li{
        
         height: 100px;
         line-height: 95px;
-        margin-top: -10px;
         padding-left: 7px;
         position: absolute;
         right: 33%;
         text-align: center;
-        top: 33%;
+        top: 0%;
+        bottom: 0%;
+        margin: auto;
     }
-    /* .text_responsiv{
-        padding-top: 400px;
-    } */
+    .text_responsiv{
+        margin-top: 520px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    .text_responsiv{
+        margin-left: 50%;
+    }
 }
