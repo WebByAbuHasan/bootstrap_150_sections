@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 12pt;
+}
+h1{
+    font-weight: 200;
+    font-size: 60px;
+}
+
+.head-sec{
+    background-color: rgb(15, 195, 235);
+    padding: 15px 0px;
+    color: #ffffff;
+}
+.head-info{
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+}
+.gmail-address{
+    display: flex;
+    gap: 8px; 
+}
+.telphone{
+    display: flex;
+    gap: 8px; 
+}
+
+
+.nav-sec{
+    padding: 15px 0px;
+    background-color: #ffffff;
+}
+.logo{
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    justify-content: end;
+}
+.nav-part .nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav li{
+    list-style: none;
+    text-transform: uppercase;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.sliders{
+    background-color: rgb(15, 195, 235);
+    color: #ffffff;
+    padding: 50px 0px;
+}
+.heros-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.service-btn{
+    padding: 8px 35px;
+    background-color: #fbff02;
+    color: #000000;
+    border: none;
+    text-transform: uppercase;
+}
+
+.heeros-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #ffffff;   
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fbff02;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .head-info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: end;
+    }
+}

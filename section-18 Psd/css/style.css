@@ -21,6 +21,7 @@ p{
     color: #626262;
     font-size: 14pt;
 }
+
 a,button{
     text-decoration: none;
     color: #2c2a2a;
@@ -146,9 +147,76 @@ list-style: none;
     align-items: center;
     gap: 15px;
 }
+/* post page design */
+
+.post_img img{
+    width: 100%;
+}
+
+.post-social-link{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 50px 0px;
+}
+.post-link{
+    display: flex;
+    gap: 15px;
+}
+.post-social-link .post-link li{
+    list-style: none;
+}
+.like-post{
+    background-color: #f5f5f5;
+}
+.like-post h3{
+ padding: 10px 0px;
+}
+.comment-sec{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0px;
+}
+.comment-img img{
+    border-radius: 50%;
+}
+
+.comment-label{
+    text-transform: uppercase;
+    color: #c7c1b6;
+    font-size: 12pt;
+}
+.comment-content{
+    width: 100%;
+}
+.comment-social-link{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.comment-social-link .comment-link{
+    display: flex;
+    gap: 15px;
+}
+.comment-social-link .comment-link li{
+    list-style: none;
+}
 
 
+/* singel post slidbar */
 
+.about-link{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    padding-left: 0rem;
+}
+.about-link li{
+    list-style: none;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
