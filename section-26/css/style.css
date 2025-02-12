@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+p{
+    margin: 0px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+input{
+    height: 40px;
+}
+textarea{
+    height: 60px;
+}
+
+input , textarea{
+    width:100% ;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.from-design{
+    padding: 35px;
+    background-color: aliceblue;
+}
+
+.from-design h4{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.from_btn{
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(116, 116, 255);
+}
+.adrress{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(116, 116, 255);
+    padding: 35px;
+    gap: 20px;
+    color: #ffffff;
+}
+.home_address , .phone_number , .email_address,.socil_address{
+  display: flex;
+  gap: 20px;
+}
+
+.socil_address{
+    font-size: 20px;
+}
+
