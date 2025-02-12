@@ -1,0 +1,15 @@
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.text-component ul, .text-component ol, .text-component p, .text-component blockquote, .text-component .text-component__block {
+    margin-bottom: 0px;
+    /* margin-bottom: calc(var(--space-sm)* var(--text-vspace-multiplier, 1)); */
+
+}
+.content-timeline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

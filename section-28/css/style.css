@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.footer{
+ background-color: blueviolet;
+ color: #ffffff;
+ padding: 50px 0px;
+}
+
+.footer a{
+   text-decoration: none;
+   color: #ffffff;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer .socal-item{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.footer h3{
+    margin-bottom: 20px;
+}
+
+.footer .footer-location,.footer-email,.footer-number{
+    display: flex;
+    gap: 20px;
+}
+.footer-subscribe{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.footer-subscribe h5{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.newsleter input{
+    padding: 5px;
+    border: none;
+}
+.newsleter .btn-footer{
+    padding: 5px 10px ;
+    border: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.footer_end{
+    background-color: #ffffff;
+    padding: 10px 0px;
+}
+.pr-polocy{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+.pr-polocy a{
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
