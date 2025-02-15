@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+
+.content-paragrap{
+    padding: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fullwidth-bg-area{
+    background-image: url(../img/background\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 70px 0;
+} 
+.margin-minus{
+    margin: -70px 0;
+}
+
+.dark-bg{
+    background-color: rgb(32, 30, 30);
+    color: #ffffff;
+    padding: 30px;
+}
+.center-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text-right img{
+    width: 100%;
+}
+.author-name span{
+    font-size: 15px;
+    opacity: .5;
+}
+.author-name{
+    margin-bottom: 30px;
+    position: relative;
+    padding-left:35px ;
+}
+.author-name::before{
+    width: 20px;
+    background: #ffffff;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+
+}
+.bordered-btn{
+    border: 2px solid #ffa200;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.boxed-content{
+  margin: 0px 30px;
+  position: relative;
+}
+.boxed-content::before{
+    width: 40px;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    height: 40px;
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: -20px;
+}
+
+.boxed-content::after{
+    width: 40px;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    height: 40px;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .boxed-content::before{
+        left: -30px;
+        top: -10px;
+    }
+    
+    .boxed-content::after{
+        bottom: 20px;
+        right: 0px;
+        
+    }
+    .bordered-btn {
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        margin-bottom: 30px;
+    }
+}
