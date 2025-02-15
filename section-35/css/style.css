@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
+
+
+.bordered-btn{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+.absolute-bg-1{
+    background-image: url(../img/background\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.absolute-bg-2{
+    background-image: url(../img/background\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-padding{
+    background-color: black;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px;
+}
+
+.boxed-content{
+    position: relative;
+    padding-left: 40px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.absolute-bg-left .boxed-content{
+    margin-left: 80px;
+    padding-right: 0;
+}
+.boxed-content::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100px;
+    content: "";
+    background: #898585;
+}
+
+.section-absolute-bg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.absolute-bg-left .section-absolute-bg{
+    position: absolute;
+    right: auto;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .section-absolute-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 40%;
+    }
+
+    .boxed-content {
+        position: relative;
+        padding-left: 40px;
+        padding-right: 70px;
+        margin-top: 400px;
+        align-items: start;
+    }
+
+    .absolute-bg-left .section-absolute-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 40%;
+    }
+    .absolute-bg-left .boxed-content{
+        margin-left: 0px;
+        padding-right: 0;
+    }
+}
