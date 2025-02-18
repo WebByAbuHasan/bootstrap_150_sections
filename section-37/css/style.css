@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hade-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hade-line h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    transform: rotate(270deg);
+    margin-top: -100px;
+}
+
+.hade-line h3::after{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(270deg);
+    right: 0;
+    bottom: 50%;
+    margin: 0px 35px 0px 0px;
+}
+
+.team-list{
+    margin-top: 100px;
+}
+
+.team-card {
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    background-color: rgb(71, 66, 66);
+}
+
+.team-dec {
+    margin-top: 30px;
+    border: 2px solid #666;
+    text-transform: uppercase;
+}
+
+.team-dec h4 {
+    margin: -10px 20px 0px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    background: #ffffff;
+}
+
+.team-dec p {
+    margin-bottom: 20;
+    font-size: 18px;
+    color: #666;
+}
+
+
+.team-list-margin{
+    padding-top: 100px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .hade-line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hade-line h3{
+        text-transform: uppercase;
+        font-size: 30px;
+        transform: rotate(0deg);
+        margin-top: 100px;
+    }
+
+    .team-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .team-list-margin{
+        padding-top: 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .hade-line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hade-line h3{
+        text-transform: uppercase;
+        font-size: 30px;
+        transform: rotate(0deg);
+        margin-top: 100px;
+    }
+    .team-list-margin {
+        padding-top: 0px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .hade-line h3{
+        text-transform: uppercase;
+        font-size: 30px;
+        transform: rotate(270deg);
+        margin-top: -100px;
+    }
+    .team-list-margin{
+        padding-top: 100px;
+    }
+}
