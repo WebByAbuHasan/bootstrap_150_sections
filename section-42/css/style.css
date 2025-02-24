@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-text{
+    padding: 40px 0px;
+}
+.header-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.single-product{
+    position: relative;
+    padding:50px 0px;
+}
+
+.single-product:hover{
+    background-color: black;
+    color: #888787;
+    padding: -30px 0px;
+}
+.single-product .card-product{
+    border: none;
+}
+.single-product .card-product:hover{
+    border: none;
+    background-color: black;
+    color: #888787;
+}
+
+.dec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.dec .title{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.dec .price{
+    font-size: 30px;
+    font-weight: bold;
+    color: #b00b0b;
+    padding: 0;
+}
+
+.card-product:hover .cart-btn{
+    opacity: 1;
+}
+.card-product .cart-btn{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+}
+.arow-go-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    font-size: 25px;
+}
+.love-cart-icon{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.card-img-top .card-img-top{
+    background: rgb(9, 9, 9);
+}
